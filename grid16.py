@@ -5,7 +5,6 @@ from PIL import Image, ImageDraw
 if __name__ == '__main__':
     height = 200
     width = 200
-#    image = Image.new(mode='L', size=(height, width), color=255)
     image = Image.new(mode='P', size=(height, width), color=255)
 
     # Draw some lines
